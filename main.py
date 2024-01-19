@@ -6,7 +6,7 @@ print("[+] enter web path > /admin/filemanger/upload.php")
 print("")
 while True:
     file_name = input("file_path > ")
-    new_path = "enter web path > "
+    new_path = input("enter web path > ")
     result_file_name = "result.txt"
     valid_urls = []
 
